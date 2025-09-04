@@ -1,0 +1,15 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.whystackof16.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "refmap": "why-stack-of-16.refmap.json",
+    "mixins": [
+        "ItemMixin"
+    ],
+    "client": [],
+    "server": [],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

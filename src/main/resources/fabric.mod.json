@@ -1,0 +1,30 @@
+{
+    "schemaVersion": 1,
+    "id": "why-stack-of-16",
+    "version": "1.21.8",
+    "name": "Why Stack of 16?",
+    "description": "Makes all items that stack to 16 now stack to 64",
+    "authors": [
+        "Froz3nKill3r69"
+    ],
+    "contact": {
+        "homepage": "https://github.com/justinscott12",
+        "sources": "https://github.com/justinscott12/why-stack-of-16"
+    },
+    "license": "MIT",
+    "icon": "assets/why-stack-of-16/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+          "com.whystackof16.WhyStackOf16Mod"
+        ]
+    },
+    "mixins": [
+      "why-stack-of-16.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric-api": "*",
+        "minecraft": "${minecraft_version}"
+    }
+}
