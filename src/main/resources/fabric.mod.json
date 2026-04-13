@@ -1,7 +1,7 @@
 {
     "schemaVersion": 1,
     "id": "why-stack-of-16",
-    "version": "1.21.8",
+    "version": "${version}",
     "name": "Why Stack of 16?",
     "description": "Makes all items that stack to 16 now stack to 64",
     "authors": [
